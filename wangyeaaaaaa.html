@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>王也的网页</title>
+
+<style type="text/css">
+	body {background-color:lightgreen;}
+	p {color:blue;}
+	h1{text-align: center;}
+</style>
+
+<meta name="description" content="dairy">
+<meta name="author" conten="Ye Wang">
+<meta name="keywords" content="WangYe,SYSU">
+<meta http-equiv="refresh" content="60">
+
+</head>
+<body>
+
+<div id="herder" style="background-color:#FFA501;height:100">
+<h1>你好。</h1>
+</div>
+
+<div id="demo">
+<script>
+function myFunction()
+{document.getElementById("demo").innerHTML="Hello!";}
+</script>
+<button type="button" onclick="myFunction()">点这里</button>
+</div>
+
+<div id="hello" style="background-color:#FFD700;height:250px;width:200px;float:left;">
+<p>好久不见。</p><br>
+<b>long time no see</b>
+</div>
+
+<div id="information" style="background-color:#EEEEEE;height:250px;width:400;float:left;">
+<form name="input" action="html_form_action.php" method="get">
+<fieldset>
+<legend>Personal information:</legend>
+Username: <input type="text" name="user"><br>
+E-mail:<input type="text" name="E-mail" size="30"><br>
+你最喜欢的是<select name="movies">
+<option value="Inception">Inception</option>
+<option value="13">12</option>
+<option value="The Edge of Seventeen">The Edge of Seveneen</option>
+</select><br>
+</fieldset>
+<textarea row="10" cols="30">
+有什么想对我说的么
+</textarea><br>
+<input type="submit" value="提交">
+</form>
+</div>
+
+<div id="webpage" style="float:left;">
+<p>周一课件</p>
+<iframe src="http://globalchange.bnu.edu.cn/atmos/" name="课件" width="600" height="200"></iframe>
+</div>
+
+<div id="pic" style="clear:both;">
+<img src="http://wx3.sinaimg.cn/large/a95359edgy1femnj0pwx0j20qo0qo789.jpg" alt="Star Wars" width="500" height="500">
+</div>
+
+<a href="http://library.sysu.edu.cn" target="_blank" style="text-decoration: none;">中大图书馆</a>.<br><br>
+
+<address>
+Created by <a href="mailto:wangy393@mail2.sysu.edu.cn?Subject=Hi%20" target="_top">Ye Wang</a>.<br>
+Sun Yat-sen University,ZhuHai<br>
+China<br>
+</address>
+
+<!-->版权声明</-->
+<div id="The end" style="background-color:#FFC0CB;height:100;text-align: center;">
+<p>copyright&copywangye</p>
+</div>
+
+</body>
+</html>
